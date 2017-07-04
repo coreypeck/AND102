@@ -17,6 +17,7 @@ namespace GroceryList
 			Items.Add(new Item("Milk",     2));
 			Items.Add(new Item("Crackers", 1));
 			Items.Add(new Item("Apples",   5));
+			Items.Add(new Item("Bananas",  20));
 
 			base.OnCreate(bundle);
 			SetContentView(Resource.Layout.Main);
